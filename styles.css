@@ -33,7 +33,7 @@ body {
 
 .principal {
   height: 100vh; 
-  background-image: url('/recursos/Z9TqS.png');
+  background-image: url('recursos/Z9TqS.png');
   background-size: cover;
   background-position: center;
   color: antiquewhite;
