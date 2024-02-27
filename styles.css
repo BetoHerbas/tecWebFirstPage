@@ -1,7 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  background-color: rgb(2, 2, 2);
+  color: white;
 }
 
 .navBar {
@@ -22,18 +27,18 @@ body {
 }
 
 .navBar a:hover {
-  color: rgb(90, 84, 84);
-  text-shadow: 4px 4px 6px rgba(76, 173, 252, 0.5);
+  color: rgb(161, 157, 157);
+  text-shadow: 4px 4px 6px rgba(255, 35, 35, 0.5);
 }
 
 .principal {
-  height: 100vh; /* Ocupa toda la altura de la pantalla */
-  background-image: url('/recursos/wallpaperflare.com_wallpaper.jpg');
+  height: 100vh; 
+  background-image: url('/recursos/Z9TqS.png');
   background-size: cover;
   background-position: center;
   color: antiquewhite;
   text-align: center;
-  padding-top: 10px; /* Ajusta según sea necesario */
+  padding-top: 1px; 
 }
 
 .principal h1{
@@ -44,11 +49,72 @@ body {
 }
 
 .info {
-  padding: 20px; /* Añade relleno para mejorar la apariencia */
+  display: flex;
+  flex-direction: column;
 }
 
 .box {
-  margin-bottom: 20px; /* Espaciado entre las cajas */
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-/* Añade estilos adicionales según sea necesario para las cajas y el contenido */
+.box h2{
+  font-size: 2.5em;
+  margin-top: 20px;
+  text-shadow: 4px 4px 6px rgba(87, 86, 100, 0.5);
+}
+
+.box p{
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+#img1{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  box-shadow: 4px 4px 6px rgba(76, 252, 129, 0.5);
+}
+
+#img2{
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+  margin-top: 50px;
+  box-shadow: 4px 4px 6px rgba(76, 173, 252, 0.5);
+}
+
+#img3{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  box-shadow: 4px 4px 6px rgba(158, 76, 252, 0.5);
+}
+
+.text{
+  margin-top: 20px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.footer{
+  margin-left: 40px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-top: 3px;
+  padding-bottom: 50px;
+}

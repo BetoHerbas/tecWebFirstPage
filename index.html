@@ -9,22 +9,61 @@
 
 <body>
   <div class="navBar">
-    <a href="index.html">Home</a>
-    <a href="mandelbrot.html">Mandelbrot</a>
-    <a href="julia.html">Julia</a>
-    <a href="about.html">About</a>
-  </div>
+    <a href="#home">Home</a>
+    <a href="#fractales">Fractales</a>
+    <a href="#mandelbrot">Mandelbrot</a>
+    <a href="#caracteristicas">Características</a>
+  </div> 
 
-  <div class="principal">
+  <div class="principal" id="home">
     <h1>MANDELBROT <br> SET</h1>
   </div>
 
-  <div class="info">
-    <div class="box">
-      <h2>What is the Mandelbrot set?</h2>
-      <p>The Mandelbrot set is the set of complex numbers c for which the function f(z) = z^2 + c does not diverge when iterated from z = 0, i.e., for which the sequence f(0), f(f(0)), etc., remains bounded in absolute value. The set is closely related to Julia sets (which include similarly complex shapes) and is named after the mathematician Benoit Mandelbrot, who studied and popularized it.</p>
+  <div class="info" id="info">
+    <div class="box" id="fractales">
+      <span class="text">
+        <h2>Qué es un fractal?</h2>
+        <p>Un fractal es una figura geométrica o un conjunto matemático que exhibe autosimilitud a diferentes escalas.
+          Esto significa que la estructura de un fractal se repite a diferentes niveles de magnificación. Los fractales
+          son objetos complejos y detallados que pueden ser creados mediante algoritmos matemáticos, y son conocidos por
+          su apariencia intrincada y patrones repetitivos.</p>
+      </span>
+      <span class="img"> <img src="/recursos/EjemploFractales.jpg" alt="IMG" id="img1"> </span>
+    </div>
+
+    <div class="box" id="mandelbrot">
+      <span class="img">
+        <img src="/recursos/Self-Similarity-Zoom.gif" alt="IMG" id="img2">
+      </span>
+      <span class="text">
+        <span class="text">
+          <h2>Conjunto de Mandelbrot</h2>
+          <p>Un ejemplo clásico de fractal es el conjunto de Mandelbrot, que es una representación gráfica de números
+            complejos que muestra propiedades fractales. Los fractales también tienen aplicaciones en diversas áreas,
+            como la modelación de fenómenos naturales, la compresión de imágenes, y la generación de paisajes y gráficos
+            computacionales.</p>
+        </span>
+      </span>
+    </div>
+
+    <div class="box" id="caracteristicas">
+      <span class="text">
+        <h2>Características de un fractal</h2>
+        <p>La característica distintiva de un fractal es su autosimilitud, lo que significa que partes más pequeñas del
+          objeto son similares a la totalidad del objeto. Incluso al acercarse o alejarse, se observan patrones
+          similares.
+          Los fractales pueden encontrarse en la naturaleza, como en las ramificaciones de los árboles, los contornos de
+          las montañas, y en procesos caóticos como el clima.</p>
+      </span>
+      <span class="img">
+        <img src="/recursos/caracteristica.png" alt="IMG" id="img3">
+      </span>
+    </div>
+
+    <div class="footer">
+      <h2>Ver simulación</h2>
+      <a href="https://davidprograma.github.io/ytc/05-Mandelbrot/viewer/">Mandelbrot</a>
     </div>
   </div>
 </body>
-
 </html>
