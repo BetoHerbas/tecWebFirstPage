@@ -1,7 +1,54 @@
-.hola{
-    background-color: rebeccapurple;
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
-.mundo{
-    background-color: greenyellow;
+.navBar {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(48, 48, 61, 0.205);
+  z-index: 100;
+  text-align: center;
 }
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.navBar a:hover {
+  color: rgb(90, 84, 84);
+  text-shadow: 4px 4px 6px rgba(76, 173, 252, 0.5);
+}
+
+.principal {
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  background-image: url('/recursos/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 10px; /* Ajusta según sea necesario */
+}
+
+.principal h1{
+  font-size: 3.4em;
+  margin-top: 240px;
+  letter-spacing: 15px;
+  text-shadow: 4px 4px 6px rgba(87, 86, 100, 0.5);
+}
+
+.info {
+  padding: 20px; /* Añade relleno para mejorar la apariencia */
+}
+
+.box {
+  margin-bottom: 20px; /* Espaciado entre las cajas */
+}
+
+/* Añade estilos adicionales según sea necesario para las cajas y el contenido */
